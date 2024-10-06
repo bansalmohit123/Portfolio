@@ -68,12 +68,21 @@ body {
 }
 
 /* Headline gradient text effect */
-.headline-1 {
-  @apply text-5xl leading-tight font-semibold lg:text-[55px] lg:leading-[1.15];
+.headline-1 , .headline-2 {
+  @apply max-w-max;
   background: linear-gradient(90deg, #fafafa, #a1a1aa);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+.headline-1 {
+  @apply text-5xl leading-tight font-semibold lg:text-[55px] lg:leading-[1.15];
+}
+
+.headline-2 {
+  @apply text-3xl lg:text-4xl lg:leading-tight font-semibold ;
+}
+
+
 
 .btn .material-symbols-rounded {
   @apply text-[18px];
