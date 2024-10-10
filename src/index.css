@@ -102,3 +102,7 @@ body {
 .section {
   @apply pt-20 lg:pt-32;
 }
+
+.title-1 {
+  @apply text-[22px] font-normal
+}
