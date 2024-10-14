@@ -37,15 +37,15 @@ const Contact = () => {
      className="section">
    <div className="container lg:grid lg:grid-cols-2 lg:items-stretch">
     <div className="mb-12 lg:mb-0 lg:flex lg:flex-col">
-        <h2 className="headline-2 lg:max-w-[12-ch]">
+        <h2 className="headline-2 lg:max-w-[12-ch] reveal-up">
             Contact me
         </h2>
-        <p className="text-zinc-400 mt-3 mb-8 max-w-[50ch] lg:max-w-[30ch]">
+        <p className="text-zinc-400 mt-3 mb-8 max-w-[50ch] lg:max-w-[30ch] reveal-up">
             Have a question or want to work together? Feel free to reach out.
         </p>
         <div className="flex items-center gap-2 mt-auto">
           {  socialLinks.map(({ href, icon }, key) => (
-            <a href={href} key={key} target="_blank" className="w-12 h-12 grid place-items-center ring-inset ring-2 ring-zinc-50/5 rounded-lg transition-[background-color,color] hover:bg-zinc-50 hover:text-zinc-950 active:bg-zinc-50/80">
+            <a href={href} key={key} target="_blank" className="w-12 h-12 grid place-items-center ring-inset ring-2 ring-zinc-50/5 rounded-lg transition-[background-color,color] hover:bg-zinc-50 hover:text-zinc-950 active:bg-zinc-50/80 reveal-up">
                 {icon}
             </a>
             ))}
@@ -56,26 +56,26 @@ const Contact = () => {
     <form action="https://getform.io/f/ayvpnzwb" method="POST" className="xl:pl-10 2xl:pl-20">
         <div className="md:grid md:items-center md:grid-cols-2 md:gap-2">
             <div className="mb-4">
-                <label htmlFor="name" className="label">
+                <label htmlFor="name" className="label reveal-up">
                     Name
                 </label>
-                <input type="text" id="name" name="name" className="text-field" autoComplete="name" placeholder="Ketan j" required />
+                <input type="text" id="name" name="name" className="text-field reveal-up" autoComplete="name" placeholder="Ketan j" required />
             </div>
             <div className="mb-4">
-                <label htmlFor="email" className="label">
+                <label htmlFor="email" className="label reveal-up">
                     Email
                 </label>
-                <input type="email" id="email" name="email" className="text-field" autoComplete="email" placeholder="Ketan@example.com" required />
+                <input type="email" id="email" name="email" className="text-field reveal-up" autoComplete="email" placeholder="Ketan@example.com" required />
             </div>
         </div>
 
         <div className="mb-4">
-            <label htmlFor="message" className="label">
+            <label htmlFor="message" className="label reveal-up">
                 Message
             </label>
-            <textarea id="message" name="message" className="text-field resize-y min-h-32 max-h-80" placeholder="Your message here" required></textarea>
+            <textarea id="message" name="message" className="text-field resize-y min-h-32 max-h-80 reveal-up" placeholder="Your message here" required></textarea>
         </div>
-        <button type="submit" className="btn btn-primary [&]:max-w-full w-full justify-center">Submit</button>
+        <button type="submit" className="btn btn-primary [&]:max-w-full w-full justify-center reveal-up">Submit</button>
     </form>
 
 
