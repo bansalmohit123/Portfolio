@@ -8,42 +8,33 @@ gsap.registerPlugin(useGSAP, ScrollTrigger)
 import ReviewCard from "./ReviewCard";
 
 const reviews = [
+   
+   
     {
-        content: 'Exceptional web development! Delivered a seamless, responsive site with clean code and great UX.',
-        name: 'Sophia Ramirez',
-        imgSrc: '/images/people-1.jpg',
-        company: 'PixelForge'
+        content: 'Developed and optimised API’s using Nodejs, reduced API response time by 25% and enhanced overall system performance.',
+        name: 'Schachner Industries Private Limited',
+        imgSrc: 'https://drive.google.com/drive/folders/1TwcCKT0kdla3WAHRvdYJyRXUSMFcFDqs',
+        company: 'Internship'
     },
     {
-        content: 'Impressive work! Fast loading times, intuitive design, and flawless backend integration. Highly recommend.',
-        name: 'Ethan Caldwell',
-        imgSrc: '/images/people-2.jpg',
-        company: 'NexaWave'
+        content: '• Developed and deployed APIs using Node.js as the backend framework, optimized MongoDB queries, integrated Twilio for messaging service',
+        name: 'CodeScripe',
+        imgSrc: 'https://drive.google.com/drive/folders/1SVk7PI61MPxkYs57mf3FNu2ei5u1mbjz',
+        company: 'Internship'
     },
     {
-        content: 'Outstanding developer! Built a robust site with perfect functionality. Efficient and detail-oriented.',
-        name: 'Liam Bennett',
-        imgSrc: '/images/people-3.jpg',
-        company: 'CodeCraft'
+        content: 'Covered fundamental concepts of artificial intelligence, including advanced algorithms such as machine learning, neural networks, and natural language processing, offering a comprehensive understanding of core principles and techniques',
+        name: 'Great Learning',
+        imgSrc: 'https://drive.google.com/drive/folders/1Qhv7xTSSMt-He8E-KurcoJZlrXzII39g',
+        company: 'Certification'
     },
     {
-        content: 'Creative and skilled! Produced a modern, user-friendly site that exceeded expectations. Great communication.',
-        name: 'Noah Williams',
-        imgSrc: '/images/people-4.jpg',
-        company: 'BrightWeb'
+        content: 'Delivered foundational knowledge in building cross-platform mobile applications using the Flutter framework, equipping learners with essential skills to develop versatile apps.',
+        name: 'Simplilearn',
+        imgSrc: 'https://drive.google.com/drive/folders/1by0bq44mvaWRwFHnK28spGkudwUPU9CC',
+        company: 'Certification'
     },
-    {
-        content: 'Professional work! Delivered on time, with a polished design and smooth user experience. Top-notch developer.',
-        name: 'Ava Thompson',
-        imgSrc: '/images/people-5.jpg',
-        company: 'TechMosaic'
-    },
-    {
-        content: 'Excellent project execution! High-quality code, responsive design, and exceptional problem-solving skills.',
-        name: 'Jonathan',
-        imgSrc: '/images/people-6.jpg',
-        company: 'Skyline Digital'
-    }
+  
 ];
 
 const Review = () => {
@@ -57,12 +48,12 @@ const Review = () => {
             },
             x:'-1000'
         })
-    })
+    });
     return (
         <section id="reviews" className="section overflow-hidden ">
             <div className="container ">
                 <h2 className="headline-2 mb-8 reveal-up">
-                    What our customers say
+                    Experience / Certificate
                 </h2>
                 <div className="scrub-slide flex items-stretch gap-3 w-fit ">
                     {reviews.map(({ content, name, imgSrc, company }, key) => (

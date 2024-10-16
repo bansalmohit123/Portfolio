@@ -25,24 +25,24 @@ const sitemap = [
   const socials = [
     {
       label: 'GitHub',
-      href: 'https://www.github.com/codewithsadee-org'
+      href: 'https://www.github.com/bansalmohit123'
     },
     {
       label: 'LinkedIn',
-      href: 'https://www.linkedin.com/in/codewithsadee'
+      href: 'https://www.linkedin.com/in/mohit-bansal-530946279/'
     },
     {
-      label: 'Twitter X',
-      href: 'https://x.com/codewithsadee_'
+      label: 'LeetCode',
+      href: 'https://leetcode.com/u/Mohit_1727/'
     },
     {
-      label: 'Instagram',
-      href: 'https://www.instagram.com/codewithsadee'
+      label: 'Codeforces',
+      href: 'https://codeforces.com/profile/mohit1327'
     },
     {
-      label: 'CodePen',
-      href: 'https://codepen.io/codewithsadee'
-    }
+      label: 'CodeChef',
+      href: 'https://www.codechef.com/users/charm_deed_69'
+    },
   ];
 const Footer = () => {
     return (

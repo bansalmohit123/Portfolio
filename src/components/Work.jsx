@@ -3,39 +3,33 @@ import ProjectCard from "./ProjectCard";
 const works = [
   {
     imgSrc: '/images/project-1.jpg',
-    title: 'Full stack music app',
-    tags: ['API', 'MVC', 'Development'],
-    projectLink: 'https://musify-5al0.onrender.com/'
+    title: 'PhytoScan App',
+    tags: ['API', 'Detect', 'E-commerce'],
+    projectLink: 'https://github.com/bansalmohit123/phytoscan'
   },
   {
     imgSrc: '/images/project-2.jpg',
-    title: 'Free stock photo app',
-    tags: ['API', 'SPA'],
-    projectLink: 'https://pixstock-official.vercel.app/'
+    title: 'Chatter Box',
+    tags: ['API', 'Development', 'Chat'],
+    projectLink: 'https://github.com/bansalmohit123/instagramclone'
   },
   {
     imgSrc: '/images/project-3.jpg',
-    title: 'Recipe app',
-    tags: ['Development', 'API'],
-    projectLink: ''
-  },
-  {
-    imgSrc: '/images/project-4.jpg',
-    title: 'Real state website',
-    tags: ['Web-design', 'Development'],
-    projectLink: 'https://github.com/codewithsadee-org/wealthome'
+    title: 'Banking App',
+    tags: ['Development', 'API' , 'Auth'],
+    projectLink: 'https://github.com/TanishaMehta17/Fintech'
   },
   {
     imgSrc: '/images/project-5.jpg',
-    title: 'eCommerce website',
-    tags: ['eCommerce', 'Development'],
-    projectLink: 'https://github.com/codewithsadee/anon-ecommerce-website'
+    title: 'Management System',
+    tags: ['API', 'Development'],
+    projectLink: 'https://github.com/bansalmohit123/Management_system'
   },
   {
     imgSrc: '/images/project-6.jpg',
-    title: 'vCard Personal portfolio',
+    title: 'Todo App',
     tags: ['Web-design', 'Development'],
-    projectLink: 'https://github.com/codewithsadee/vcard-personal-portfolio'
+    projectLink: 'https://github.com/bansalmohit123/todolist'
   },
 ];
 const Work = () => {

@@ -1,34 +1,27 @@
 import PropTypes from "prop-types";
 
 const ReviewCard = ({ content, name, imgSrc, company }) => {
-    // Create a ratings array with unique objects
-    const ratings = Array(5).fill(null).map(() => ({
-        icon: 'star',
-        style: { fontVariationSettings: '"FILL" 1' }
-    }));
-
     return (
-        <div className="bg-zinc-800 p-5 rounded-xl min-w-[320px] flex flex-col lg:min-w-[420px]">
-            <div className="flex items-center gap-1 mb-3">
-                {ratings.map(({ icon, style }, key) => (
-                    <span key={key} className="material-symbols-rounded text-yellow-300 text-[18px]" style={style}>
-                        {icon}
-                    </span>
-                ))}
+        <div className="bg-zinc-800 border border-transparent p-5 rounded-xl min-w-[320px] flex flex-col justify-between lg:min-w-[420px]  transition-all duration-300 hover:border-sky-400">
+            
+            {/* Name and Company aligned to the left */}
+            <div className="mb-4 text-left">
+                <p className="text-white font-semibold">{name}</p>
+                <p className="text-xs text-zinc-400 tracking-wider">{company}</p>
             </div>
-            <p className="text-zinc-400 mb-8">
+
+            {/* Content aligned to the left */}
+            <p className="text-zinc-400 text-left mb-8">
                 {content}
             </p>
-            <div className="flex items-center gap-2 mt-auto">
-                <figure className="img-box rounded-lg">
-                    <img src={imgSrc} alt={name} height={44} width={44} loading="lazy" className="img-cover" />
-                </figure>
-                <div>
-                    <p>{name}</p>
-                    <p className="text-xs text-zinc-400 tracking-wider">
-                        {company}
-                    </p>
-                </div>
+
+            {/* Icon Link aligned to the left, positioned 10px from the bottom */}
+            <div className="flex justify-start mt-auto mb-[10px]">
+                <a href={imgSrc} className="w-11 h-11 rounded-lg grid place-items-center bg-sky-400 text-zinc-950 shrink-0">
+                    <span className="material-symbols-rounded" aria-hidden="true">
+                        arrow_outward
+                    </span>
+                </a>
             </div>
         </div>
     );
