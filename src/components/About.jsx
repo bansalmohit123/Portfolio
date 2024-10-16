@@ -1,11 +1,11 @@
 const aboutItems = [
     {
       label: 'Project done',
-      number: 45
+      number: 8
     },
     {
       label: 'Years of experience',
-      number: 10
+      number: 2
     }
   ];
   
@@ -15,7 +15,7 @@ const aboutItems = [
         <div className="container">
           <div className="bg-zinc-800/50 p-7 rounded-2xl md:p-12 reveal-up">
             <p className="text-zinc-300 mb-4 md:mb-8 md:text-xl md:max-w-[60ch]">
-              Welcome! I'm Henry, a professional web developer with a knack for crafting visually stunning and highly functional websites. Combining creativity and technical expertise, I transform your vision into digital masterpieces that excel in both appearance and performance.
+            Welcome! I'm Mohit Bansal, a passionate Flutter and DevOps developer dedicated to building scalable, high-performance applications. With a strong focus on both frontend development and efficient backend infrastructure, I bring seamless user experiences to life, ensuring your projects are not only visually impressive but also technically robust. Let’s turn your ideas into future-ready digital solutions.
             </p>
             <div className="flex flex-wrap items-center gap-4 md:gap-7">
               {aboutItems.map(({ label, number }, index) => (

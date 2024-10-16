@@ -25,14 +25,15 @@ const Hero = () => {
             </div>
   
             {/* Hero Heading */}
-            <h2 className="headline-1 max-w-[15ch] sm:max-w-[20ch] lg:max-w-[15ch] mt-5 mb-8 lg:mb-10">
-              Building Scalable Modern Websites for the Future
-            </h2>
+            <h2 className="headline-1 max-w-[15ch] mx-auto text-center mt-5 mb-8 lg:mb-10">
+          Building Robust Flutter Apps and Streamlining DevOps for Scalable, Future-Ready Solutions
+           </h2>
+
   
             {/* Button Group */}
             <div className="flex items-center gap-3">
               {/* ButtonPrimary and ButtonOutline would be separate components */}
-              <ButtonPrimary label="Download CV" icon="download" />
+              <ButtonPrimary label="Download CV" icon="download" href="https://drive.google.com/file/d/1-GMF9PXmzK7lPHx0f2AakwObJNizF3P5/view?usp=drive_link" />
               <ButtonOutline
               href="#about"
               label="Scroll Down"
@@ -45,7 +46,7 @@ const Hero = () => {
           <div className="hidden lg:block">
             <figure className="w-full max-w-[480px] ml-auto bg-gradient-to-t from-sky-400 via-25% via-sky-400/40 to-65% rounded-[60px] overflow-hidden">
               <img
-                src="/images/hero-banner.png"
+                src="/images/photo.png"
                 width={656}
                 height={800}
                 className="w-full"

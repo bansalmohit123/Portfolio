@@ -1,14 +1,19 @@
 import SkillCard from "./SkillCard";
 const skillItem = [
     {
-        imgSrc: '/images/figma.svg',
-        label: 'Figma',
-        desc: 'Design tool'
+        imgSrc: '/images/Flutter.svg',
+        label: 'Flutter',
+        desc: 'Framework'
     },
     {
-        imgSrc: '/images/css3.svg',
-        label: 'CSS',
-        desc: 'User Interface'
+        imgSrc: '/images/docker.svg',
+        label: 'Docker',
+        desc: 'Containerization'
+    },
+    {
+        imgSrc: '/images/kubernetes.svg',
+        label: 'Kubernetes',
+        desc: 'Orchestration'
     },
     {
         imgSrc: '/images/javascript.svg',
@@ -19,6 +24,11 @@ const skillItem = [
         imgSrc: '/images/nodejs.svg',
         label: 'NodeJS',
         desc: 'Web Server'
+    },
+    {
+        imgSrc: '/images/firebase.svg',
+        label: 'Firebase',
+        desc: 'Backend Services'
     },
     {
         imgSrc: '/images/expressjs.svg',
@@ -36,10 +46,21 @@ const skillItem = [
         desc: 'Framework'
     },
     {
-        imgSrc: '/images/tailwindcss.svg',
-        label: 'TailwindCSS',
-        desc: 'User Interface'
+        imgSrc: '/images/github.svg',
+        label: 'GitHub',
+        desc: 'Version Control'
     },
+    {
+        imgSrc: '/images/vscode.svg',
+        label: 'VS Code',
+        desc: 'Editor'
+    },
+    {
+        imgSrc: '/images/figma.svg',
+        label: 'Figma',
+        desc: 'Design tool'
+    }
+    
 ];
 const Skill = () => {
     return (
@@ -50,8 +71,7 @@ const Skill = () => {
                 </h2>
 
                 <p className="text-zinc-400 mt-3 mb-8 max-w-[50ch] ">
-                 Discover the powerful tools and technologies I use to create exceptional,
-                 high-performing websites & applications.
+                Explore the cutting-edge tools and technologies I leverage to develop innovative, high-performance apps and streamline DevOps processes, ensuring scalability and seamless functionality.
                 </p>
                 <div className="grid gap-3 grid-cols-[repeat(auto-fill,_minmax(250px,_1fr))] ">
                   {  skillItem.map(({ imgSrc, label, desc }, key) => (
