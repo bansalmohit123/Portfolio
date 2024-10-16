@@ -14,9 +14,12 @@ const aboutItems = [
       <section id="about" className="section">
         <div className="container">
           <div className="bg-zinc-800/50 p-7 rounded-2xl md:p-12 reveal-up">
-            <p className="text-zinc-300 mb-4 md:mb-8 md:text-xl md:max-w-[60ch]">
+          <div className="text-zinc-300 mb-4 md:mb-8 md:text-xl w-full text-left ">
+          <p >
             Welcome! I'm Mohit Bansal, a passionate Flutter and DevOps developer dedicated to building scalable, high-performance applications. With a strong focus on both frontend development and efficient backend infrastructure, I bring seamless user experiences to life, ensuring your projects are not only visually impressive but also technically robust. Let’s turn your ideas into future-ready digital solutions.
             </p>
+          </div>
+           
             <div className="flex flex-wrap items-center gap-4 md:gap-7">
               {aboutItems.map(({ label, number }, index) => (
                 <div key={index}>

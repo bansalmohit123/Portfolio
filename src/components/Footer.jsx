@@ -13,7 +13,7 @@ const sitemap = [
       href: '#work'
     },
     {
-      label: 'Reviews',
+      label: 'Experience',
       href: '#reviews'
     },
     {
@@ -50,7 +50,7 @@ const Footer = () => {
             <div className="container">
                 <div className="lg:grid lg:grid-cols-2">
                     <div className="mb-10">
-                        <h2 className="headline-1 mb-8 lg:max-w-[12ch] reveal-up">
+                        <h2 className="headline-1 mb-8 lg:max-w-[12ch] reveal-up text-left">
                         Let&apos;s work together today!
                         </h2>
                         <ButtonPrimary label="Contact me" href="mailto:bansalmohit2708@gmail.com" icon="chevron_right" classes="reveal-up"/>

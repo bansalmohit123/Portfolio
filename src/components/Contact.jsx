@@ -40,7 +40,7 @@ const Contact = () => {
         <h2 className="headline-2 lg:max-w-[12-ch] reveal-up">
             Contact me
         </h2>
-        <p className="text-zinc-400 mt-3 mb-8 max-w-[50ch] lg:max-w-[30ch] reveal-up">
+        <p className="text-zinc-400 mt-3 mb-8 max-w-[50ch] w-full reveal-up text-left">
             Have a question or want to work together? Feel free to reach out.
         </p>
         <div className="flex items-center gap-2 mt-auto">
@@ -55,25 +55,25 @@ const Contact = () => {
 
     <form action="https://getform.io/f/ayvpnzwb" method="POST" className="xl:pl-10 2xl:pl-20">
         <div className="md:grid md:items-center md:grid-cols-2 md:gap-2">
-            <div className="mb-4">
+            <div className="mb-4 text-left">
                 <label htmlFor="name" className="label reveal-up">
                     Name
                 </label>
-                <input type="text" id="name" name="name" className="text-field reveal-up" autoComplete="name" placeholder="Ketan j" required />
+                <input type="text" id="name" name="name" className="text-field reveal-up" autoComplete="name" placeholder="abc" required />
             </div>
-            <div className="mb-4">
+            <div className="mb-4 text-left">
                 <label htmlFor="email" className="label reveal-up">
                     Email
                 </label>
-                <input type="email" id="email" name="email" className="text-field reveal-up" autoComplete="email" placeholder="Ketan@example.com" required />
+                <input type="email" id="email" name="email" className="text-field reveal-up" autoComplete="email" placeholder="xyz@example.com" required />
             </div>
         </div>
 
-        <div className="mb-4">
+        <div className="mb-4 text-left">
             <label htmlFor="message" className="label reveal-up">
                 Message
             </label>
-            <textarea id="message" name="message" className="text-field resize-y min-h-32 max-h-80 reveal-up" placeholder="Your message here" required></textarea>
+            <textarea id="message" name="message" className="text-field resize-y min-h-32 max-h-80 reveal-up" placeholder="Write Your message here" required></textarea>
         </div>
         <button type="submit" className="btn btn-primary [&]:max-w-full w-full justify-center reveal-up">Submit</button>
     </form>

@@ -9,7 +9,7 @@ const Hero = () => {
             <div className="flex items-center gap-3 mb-5">
               <figure className="img-box w-9 h-9 rounded-lg">
                 <img
-                  src="/images/avatar-1.jpg"
+                  src="/images/Photo.jpg"
                   width={40}
                   height={40}
                   className="img-cover"
@@ -25,7 +25,7 @@ const Hero = () => {
             </div>
   
             {/* Hero Heading */}
-            <h2 className="headline-1 max-w-[15ch] mx-auto text-center mt-5 mb-8 lg:mb-10">
+            <h2 className="headline-1 max-w-[15ch] mx-auto  mt-5 mb-8 lg:mb-10 text-left ">
           Building Robust Flutter Apps and Streamlining DevOps for Scalable, Future-Ready Solutions
            </h2>
 
@@ -44,15 +44,16 @@ const Hero = () => {
   
           {/* Hero Image */}
           <div className="hidden lg:block">
-            <figure className="w-full max-w-[480px] ml-auto bg-gradient-to-t from-sky-400 via-25% via-sky-400/40 to-65% rounded-[60px] overflow-hidden">
-              <img
-                src="/images/photo.png"
-                width={656}
-                height={800}
-                className="w-full"
-                alt="hero"
-              />
-            </figure>
+          <figure className="w-full max-w-[480px] ml-auto bg-gradient-to-t from-sky-400 via-25% via-sky-400/40 to-65% rounded-[60px] overflow-hidden">
+    <img
+        src="/images/Photo.jpg"
+        width={500} // Set a fixed width
+        height={500} // Set a fixed height
+        className="h-auto object-cover" // Remove w-full to avoid stretching
+        alt="hero"
+    />
+</figure>
+
           </div>
         </div>
       </section>

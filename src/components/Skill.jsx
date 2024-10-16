@@ -70,9 +70,11 @@ const Skill = () => {
                     Essential Tools I use
                 </h2>
 
-                <p className="text-zinc-400 mt-3 mb-8 max-w-[50ch] ">
-                Explore the cutting-edge tools and technologies I leverage to develop innovative, high-performance apps and streamline DevOps processes, ensuring scalability and seamless functionality.
-                </p>
+                <div className="text-zinc-400 mt-3 mb-8 w-full text-left">
+                    <p>
+                        Explore the cutting-edge tools and technologies I leverage to develop innovative, high-performance apps and streamline DevOps processes, ensuring scalability and seamless functionality.
+                    </p>
+                </div>
                 <div className="grid gap-3 grid-cols-[repeat(auto-fill,_minmax(250px,_1fr))] ">
                   {  skillItem.map(({ imgSrc, label, desc }, key) => (
                         <SkillCard key={key} imgSrc={imgSrc} label={label} desc={desc} classes="reveal-up" />
