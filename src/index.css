@@ -123,3 +123,25 @@ body {
 .reveal-up {
   @apply translate-y-20  opacity-0;
 }
+
+@keyframes moving-border {
+  0% {
+    background-position: 0% 50%;
+  }
+  100% {
+    background-position: 100% 50%;
+  }
+}
+
+.animate-moving-border {
+  background: linear-gradient(45deg, skyblue, deepskyblue, dodgerblue, blue);
+  position: absolute;
+  top: 0; /* Aligns with the top of the figure */
+  left: 0; /* Aligns with the left of the figure */
+  right: 0; /* Aligns with the right of the figure */
+  bottom: 0; /* Aligns with the bottom of the figure */
+  border-radius: 60px; /* Match the rounded corners */
+  background-size: 200% 200%; /* For the animation effect */
+  animation: moving-border 4s linear infinite; /* Animation duration and timing */
+  z-index: 0; /* Keep it behind the image */
+}
