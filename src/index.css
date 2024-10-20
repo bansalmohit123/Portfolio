@@ -145,3 +145,13 @@ body {
   animation: moving-border 4s linear infinite; /* Animation duration and timing */
   z-index: 0; /* Keep it behind the image */
 }
+
+
+.slick-slide {
+  padding: 0 10px; 
+}
+
+
+.slick-list {
+  margin: 0 -160px;  
+}
