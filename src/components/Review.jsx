@@ -53,36 +53,36 @@ const Review = () => {
         infinite: true,
         speed: 500,
         slidesToShow: 3,
-        slidesToScroll: 4,
+        slidesToScroll: 3,  // Adjust this based on larger screen
         initialSlide: 0,
         responsive: [
-          {
-            breakpoint: 1024,
-            settings: {
-              slidesToShow: 2,
-              slidesToScroll: 2,
-              infinite: true,
-              dots: true
-            }
-          },
-          {
-            breakpoint: 600,
-            settings: {
-              slidesToShow: 2,
-              slidesToScroll: 2,
-              initialSlide: 2
-            }
-          },
-          {
-            breakpoint: 480,
-            settings: {
-              slidesToShow: 1,
-              slidesToScroll: 1
-            }
-          }
-        ]
-      };
-
+            {
+                breakpoint: 1024,
+                settings: {
+                    slidesToShow: 2,
+                    slidesToScroll: 2,
+                    infinite: true,
+                    dots: true,
+                },
+            },
+            {
+                breakpoint: 600,
+                settings: {
+                    slidesToShow: 2,
+                    slidesToScroll: 2,
+                    dots: true,
+                },
+            },
+            {
+                breakpoint: 480,
+                settings: {
+                    slidesToShow: 1,  // Show 1 slide at a time
+                    slidesToScroll: 1,  // Scroll 1 slide at a time
+                    dots: true,
+                },
+            },
+        ],
+    };
     return (
         <section id="reviews" className="section overflow-hidden">
             <div className="container">

@@ -153,5 +153,25 @@ body {
 
 
 .slick-list {
-  margin: 0 -160px;  
+  margin: 0 -100px;  
+}
+@media (max-width: 600px) {
+  .slider-wrapper {
+    padding: 0 15px; /* Add padding to prevent slides from hitting the screen edges */
+  }
+  .slick-list {
+    margin: 0 -10px;  
+  }
+
+  .slick-slide img {
+    width: 100%; /* Ensure images inside the slide take full width */
+  }
+
+  .container {
+    padding: 0 10px; /* Adjust container padding */
+  }
+
+  .headline-2 {
+    font-size: 1.5rem; /* Adjust font size for mobile */
+  }
 }

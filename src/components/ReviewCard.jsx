@@ -2,7 +2,7 @@ import PropTypes from "prop-types";
 
 const ReviewCard = ({ content, name, imgSrc, company }) => {
     return (
-        <div className="bg-zinc-800 border border-transparent p-5 rounded-xl min-w-[320px] flex flex-col justify-between lg:min-w-[420px]  transition-all duration-300 hover:border-sky-400">
+        <div className="bg-zinc-800 border border-transparent p-5 rounded-xl min-w-[100px] flex flex-col justify-between lg:min-w-[420px]  transition-all duration-300 hover:border-sky-400">
             
             {/* Name and Company aligned to the left */}
             <div className="mb-4 text-left">
