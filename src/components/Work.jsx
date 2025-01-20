@@ -2,6 +2,12 @@ import ProjectCard from "./ProjectCard";
 
 const works = [
   {
+    imgSrc: '/images/project-6.jpg',
+    title: 'Rate Limiting and Web Protection SaaS Platform',
+    tags: ['AWS Lambda',' Node.js', 'Redis'],
+    projectLink: 'https://github.com/bansalmohit123/z-secure-docs'
+  },
+  {
     imgSrc: '/images/project-1.jpg',
     title: 'PhytoScan App',
     tags: ['API', 'Detect', 'E-commerce'],
@@ -9,7 +15,7 @@ const works = [
   },
   {
     imgSrc: '/images/project-2.jpg',
-    title: 'Chatter Box',
+    title: 'Instagram Clone',
     tags: ['API', 'Development', 'Chat'],
     projectLink: 'https://github.com/bansalmohit123/instagramclone'
   },
@@ -24,6 +30,12 @@ const works = [
     title: 'Management System',
     tags: ['API', 'Development'],
     projectLink: 'https://github.com/bansalmohit123/Management_system'
+  },
+  {
+    imgSrc: '/images/project-6.jpg',
+    title: 'Cloud Vault Storage Service',
+    tags: ['AWS-S3','Web-design', 'Development'],
+    projectLink: 'https://github.com/bansalmohit123/Cloud-Vault'
   },
   {
     imgSrc: '/images/project-6.jpg',
