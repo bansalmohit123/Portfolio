@@ -5,7 +5,7 @@ const aboutItems = [
     },
     {
       label: 'Years of experience',
-      number: 2
+      number: 1
     }
   ];
   
@@ -16,7 +16,7 @@ const aboutItems = [
           <div className="bg-zinc-800/50 p-7 rounded-2xl md:p-12 reveal-up">
           <div className="text-zinc-300 mb-4 md:mb-8 md:text-xl w-full text-left ">
           <p >
-            Welcome! I'm Mohit Bansal, a passionate Flutter and DevOps developer dedicated to building scalable, high-performance applications. With a strong focus on both frontend development and efficient backend infrastructure, I bring seamless user experiences to life, ensuring your projects are not only visually impressive but also technically robust. Let’s turn your ideas into future-ready digital solutions.
+            Welcome! I’m Mohit Bansal — a passionate Flutter and backend developer with a strong foundation in distributed systems. I thrive on building scalable, high-performance applications that not only look great but also run smoothly under the hood. My work bridges beautifully crafted frontends with powerful, reliable backend architectures to deliver seamless, end-to-end user experiences. Whether it's mobile apps or complex system designs, I’m dedicated to turning your ideas into future-ready digital solutions.
             </p>
           </div>
            

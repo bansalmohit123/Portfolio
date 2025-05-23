@@ -25,15 +25,15 @@ const Hero = () => {
           </div>
 
           {/* Hero Heading */}
-          <h2 className="headline-1 max-w-[15ch] mx-auto  mt-5 mb-8 lg:mb-10 text-left ">
-            Building Robust Flutter Apps and Streamlining DevOps for Scalable, Future-Ready Solutions
-          </h2>
+          <h4 className="headline-1 max-w-[15ch] mx-auto  mt-5 mb-8 lg:mb-10 text-left ">
+            Building High-Performance Flutter Apps Powered by Scalable Backend and Distributed Systems
+          </h4>
 
 
           {/* Button Group */}
           <div className="flex items-center gap-3">
             {/* ButtonPrimary and ButtonOutline would be separate components */}
-            <ButtonPrimary label="Download CV" icon="download" href="https://drive.google.com/file/d/1-GMF9PXmzK7lPHx0f2AakwObJNizF3P5/view?usp=drive_link" />
+            <ButtonPrimary label="Download CV" icon="download" href="https://drive.google.com/file/d/1yyDEd7r716m7N9iuPWPYN4VK024E5pON/view?usp=sharing" />
             <ButtonOutline
               href="#about"
               label="Scroll Down"

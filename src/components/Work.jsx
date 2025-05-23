@@ -2,10 +2,28 @@ import ProjectCard from "./ProjectCard";
 
 const works = [
   {
-    imgSrc: '/images/project-6.jpg',
+    imgSrc: '/images/Z-secure.png',
     title: 'Rate Limiting and Web Protection SaaS Platform',
     tags: ['AWS Lambda',' Node.js', 'Redis'],
-    projectLink: 'https://github.com/bansalmohit123/z-secure-docs'
+    projectLink: 'https://github.com/bansalmohit123/z-secure-doc'
+  },
+   {
+    imgSrc: '/images/CloudVault.png',
+    title: 'Cloud Vault Storage Service',
+    tags: ['AWS-S3','Web-design', 'Development'],
+    projectLink: 'https://github.com/bansalmohit123/Cloud-Vault'
+  },
+  {
+    imgSrc: '/images/InsightMate.png',
+    title: 'InsightMate WebApp',
+    tags: ['Flutter','Langchain', 'Gemini'],
+    projectLink: 'https://github.com/bansalmohit123/InsightMate-Application'
+  },
+  {
+    imgSrc: '/images/project-6.jpg',
+    title: 'Realtime Collaboration App',
+    tags: ['Flutter','Kafka', 'Redis'],
+    projectLink: 'https://github.com/bansalmohit123/RealTime-Collaboration-Application'
   },
   {
     imgSrc: '/images/project-1.jpg',
@@ -33,12 +51,6 @@ const works = [
   },
   {
     imgSrc: '/images/project-6.jpg',
-    title: 'Cloud Vault Storage Service',
-    tags: ['AWS-S3','Web-design', 'Development'],
-    projectLink: 'https://github.com/bansalmohit123/Cloud-Vault'
-  },
-  {
-    imgSrc: '/images/project-6.jpg',
     title: 'Todo App',
     tags: ['Web-design', 'Development'],
     projectLink: 'https://github.com/bansalmohit123/todolist'
@@ -51,7 +63,7 @@ const Work = () => {
     className="section">
       <div className="container">
         <h2 className="headline-2 mb-8 reveal-up">
-        My portfolio highlights
+        My Projects
         </h2>
         <div className="grid gap-x-4 gap-y-5 grid-cols-[repeat(auto-fill,_minmax(280px,_1fr))]">
         {works.map(({imgSrc , title,tags,projectLink}, key) => (

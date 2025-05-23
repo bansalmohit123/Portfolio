@@ -26,6 +26,16 @@ const skillItem = [
         desc: 'Web Server'
     },
     {
+        imgSrc: '/images/redis-svgrepo-com.svg',
+        label: 'Redis',
+        desc: 'Caching'
+    },
+     {
+        imgSrc: '/images/kafka-icon-svgrepo-com.svg',
+        label: 'Kakfa',
+        desc: 'Streaming'
+    },
+    {
         imgSrc: '/images/firebase.svg',
         label: 'Firebase',
         desc: 'Backend Services'
@@ -34,6 +44,16 @@ const skillItem = [
         imgSrc: '/images/expressjs.svg',
         label: 'ExpressJS',
         desc: 'Node Framework'
+    },
+    {
+        imgSrc: '/images/aws-lambda-svgrepo-com.svg',
+        label: 'AWS Lambda',
+        desc: 'Serverless'
+    },
+    {
+        imgSrc: '/images/aws-s3-svgrepo-com.svg',
+        label: 'AWS S3',
+        desc: 'Storage'
     },
     {
         imgSrc: '/images/mongodb.svg',
